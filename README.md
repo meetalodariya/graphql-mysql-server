@@ -38,17 +38,6 @@ If you haven't created the database in your machine, you can create one with spe
 $ npx sequelize db:create
 ```
 
-# Usage
-
-Start your development server by running this command:
-
-```sh
-$ npm run dev
-```
-
-With this command a GraphQL playground will be started on localhost
-(usually on port 4000 you can check terminal log for the port number)
-
 # Running Database Migrations
 
 You can run migration scripts by following command:
@@ -68,6 +57,17 @@ To populate the database with test data run :
 ```sh
 $ npx sequelize db:seed:all
 ```
+
+# Usage
+
+Start your development server by running this command:
+
+```sh
+$ npm run dev
+```
+
+With this command a GraphQL playground will be started on localhost
+(usually on port 4000 you can check terminal log for the port number)
 
 # Running the tests
 

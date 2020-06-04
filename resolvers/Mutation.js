@@ -1,4 +1,4 @@
-const uuid = require("uuid").v4;
+const uuid = require("uuidv4").uuid;
 
 module.exports = {
   async createOrganization(parent, { data }, { Organization }, info) {

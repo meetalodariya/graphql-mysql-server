@@ -2,7 +2,7 @@ const sequelize = require("./index").sequelize;
 const Sequelize = require("./index").Sequelize;
 
 module.exports = sequelize.define(
-  "organization",
+  "Organization",
   {
     id: {
       type: Sequelize.INTEGER,
