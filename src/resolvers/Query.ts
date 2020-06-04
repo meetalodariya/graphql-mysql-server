@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   async organizations(parent, args, { Organization }, info) {},
   async organization(parent, args, { Organization }, info) {
     const organization = await Organization.findOne({

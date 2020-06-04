@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "env-cmd -f ./config/dev.env nodemon index.js",
+    "dev": "env-cmd -f ./config/dev.env nodemon",
     "test": "jest"
   },
   "author": "",
@@ -21,6 +21,8 @@
   "devDependencies": {
     "jest": "^26.0.1",
     "nodemon": "^2.0.4",
-    "sequelize-cli": "^5.5.1"
+    "sequelize-cli": "^5.5.1",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.3"
   }
 }

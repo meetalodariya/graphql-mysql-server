@@ -1,7 +1,7 @@
-const sequelize = require("./index").sequelize;
-const Sequelize = require("./index").Sequelize;
+import * as Sequelize from "sequelize";
+import { sequelize } from "./index";
 
-module.exports = sequelize.define(
+export default sequelize.define(
   "Organization",
   {
     id: {

@@ -2,7 +2,13 @@
 
 module.exports = {
   up: (queryInterface, Sequelize) => {
-    return queryInterface.addColumn("organizations", "email", Sequelize.STRING);
+    return Promise.all([
+      queryInterface.addColumn("organizations", "email", Sequelize.STRING),
+      queryInterface.addConstraint("organizations", {
+        fields: ["email"],
+        type: "unique",
+      }),
+    ]);
   },
 
   down: (queryInterface, Sequelize) => {

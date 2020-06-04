@@ -1,5 +1,5 @@
 "use strict";
-const uuid = require("uuidv4").uuid;
+const { uuid } = require("uuidv4");
 module.exports = {
   up: (queryInterface, Sequelize) => {
     return queryInterface.bulkInsert(

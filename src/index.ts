@@ -1,8 +1,8 @@
-const GraphQLServer = require("graphql-yoga").GraphQLServer;
-const Query = require("./resolvers/Query");
-const Mutation = require("./resolvers/Mutation");
-const Organization = require("./models/organization");
-const db = require("./models/index.js");
+import { GraphQLServer } from "graphql-yoga";
+import Query from "./resolvers/Query";
+import Mutation from "./resolvers/Mutation";
+import Organization from "./models/organization";
+import * as db from "./models/index";
 
 db.sequelize
   // .sync({ force: true })

@@ -1,6 +1,6 @@
-const uuid = require("uuidv4").uuid;
+import { uuid } from "uuidv4";
 
-module.exports = {
+export default {
   async createOrganization(parent, { data }, { Organization }, info) {
     const organization = await Organization.create({
       uuid: uuid(),
