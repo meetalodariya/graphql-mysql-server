@@ -2,7 +2,7 @@
   "development": {
     "username": "meet",
     "password": "root1234",
-    "database": "docusign",
+    "database": "sortHR",
     "host": "localhost",
     "dialect": "mysql",
     "operatorsAliases": false
