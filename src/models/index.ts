@@ -9,7 +9,15 @@ let sequelize = new Sequelize(
   config.database,
   config.username,
   config.password,
-  config
+  {
+    pool: {
+      max: 5,
+      min: 0,
+      acquire: 30000,
+      idle: 5000,
+    },
+    ...config,
+  }
 );
 
 export { sequelize, Sequelize };
