@@ -3,7 +3,7 @@ const { uuid } = require("uuidv4");
 module.exports = {
   up: (queryInterface, Sequelize) => {
     return queryInterface.bulkInsert(
-      "organizations",
+      "Organizations",
       [
         {
           uuid: uuid(),
