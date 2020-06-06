@@ -16,11 +16,11 @@
     "operatorsAliases": false
   },
   "production": {
-    "username": "xazgsxxzapaajy",
-    "password": "f151c3013a6cf8331ae04aa2eaab43a148bd2e895dde828207f5f2f373efb1db",
-    "database": "defg7t8ggsm7ce",
-    "host": "ec2-54-86-170-8.compute-1.amazonaws.com",
-    "dialect": "postgres",
+    "username": "meet123",
+    "password": "root1234",
+    "database": "hrhost1234",
+    "host": "db4free.net",
+    "dialect": "mysql",
     "operatorsAliases": false
   }
 }
