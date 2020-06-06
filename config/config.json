@@ -21,6 +21,7 @@
     "database": "hrhost1234",
     "host": "db4free.net",
     "dialect": "mysql",
+    "port": 3306,
     "operatorsAliases": false
   }
 }
