@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "tsc && env-cmd -f ./config/prod.env node ./dist/index.js",
+    "start": "NODE_ENV=production node ./dist/index.js",
+    "heroku-postbuild": "npm run tsc",
+    "tsc": "tsc",
     "dev": "nodemon",
     "build": "tsc",
     "test": "jest"
