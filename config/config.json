@@ -16,10 +16,10 @@
     "operatorsAliases": false
   },
   "production": {
-    "username": "meet123",
-    "password": "root1234",
-    "database": "hrhost1234",
-    "host": "db4free.net",
+    "username": "admin",
+    "password": "A11Th!ngsHR",
+    "database": "HR",
+    "host": "database-2.cqjm7fnoxj6r.us-west-1.rds.amazonaws.com",
     "dialect": "mysql",
     "port": 3306,
     "operatorsAliases": false
