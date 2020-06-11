@@ -18,6 +18,26 @@ type Organization {
   updateDate: String
 }
 
+type DocuSign {
+  id: ID
+  uuid: String
+  accountId: String!
+  integrationKey: String!
+  secretKey: String!
+  accessToken: String!
+  authorization: String!
+  refreshToken: String!
+  organization: Organization!
+}
+
+type Dropbox {
+  id: ID
+  uuid: String
+  accountId: String!
+  accessToken: String!
+  organization: Organization!
+}
+
 input CreateOrganization {
   name: String!
   username: String!
