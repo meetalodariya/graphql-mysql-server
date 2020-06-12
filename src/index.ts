@@ -12,8 +12,8 @@ Organization.hasOne(DocuSign, { foreignKey: "organizationId" });
 Organization.hasOne(Dropbox, { foreignKey: "organizationId" });
 
 db.sequelize
-  .sync({ force: true })
-  // .sync()
+  // .sync({ force: true })
+  .sync()
   .then(() => {
     const server = new GraphQLServer({
       typeDefs: "./schema.graphql",
