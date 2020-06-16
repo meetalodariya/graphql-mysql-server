@@ -1,11 +1,12 @@
 import "newrelic";
-import { GraphQLServer } from "graphql-yoga";
+import { GraphQLServer, OptionsWithHttps } from "graphql-yoga";
 import Query from "./resolvers/Query";
 import Mutation from "./resolvers/Mutation";
 import Organization from "./models/organization";
 import DocuSign from "./models/docusign";
 import Dropbox from "./models/dropbox";
 import * as db from "./models/index";
+import logger from "@meetalodariya/hr-logger";
 
 // @ts-ignore
 Organization.hasOne(DocuSign, { foreignKey: "organizationId" });
@@ -22,12 +23,19 @@ db.sequelize
         Query,
         Mutation,
       },
-      context: { Organization },
+      context: ({ request, response }) => {
+        const req = {
+          method: request.method,
+          originalUrl: request.url,
+          startTime: new Date(),
+        };
+        return { Organization, logger, req };
+      },
     });
     server.start((config) => {
-      console.log("started at http://localhost:" + config.port);
+      logger.warn("started at http://localhost:" + config.port);
     });
   })
   .catch((err) => {
-    console.log(err);
+    logger.warn(err.message);
   });

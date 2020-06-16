@@ -1,0 +1,19 @@
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-06-16T10:53:59.441Z'
+}
+{
+  message: 'No organization found of that username',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.03,
+  level: 'info',
+  timestamp: '2020-06-16T10:54:10.057Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-06-16T10:55:01.863Z'
+}
