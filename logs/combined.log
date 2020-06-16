@@ -17,3 +17,8 @@
   level: 'warn',
   timestamp: '2020-06-16T10:55:01.863Z'
 }
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-06-16T16:59:36.180Z'
+}

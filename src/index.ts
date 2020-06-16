@@ -1,12 +1,12 @@
 import "newrelic";
-import { GraphQLServer, OptionsWithHttps } from "graphql-yoga";
+import { GraphQLServer } from "graphql-yoga";
 import Query from "./resolvers/Query";
 import Mutation from "./resolvers/Mutation";
 import Organization from "./models/organization";
 import DocuSign from "./models/docusign";
 import Dropbox from "./models/dropbox";
 import * as db from "./models/index";
-import logger from "@meetalodariya/hr-logger";
+import logger from "@sorthr/hr-logger";
 
 // @ts-ignore
 Organization.hasOne(DocuSign, { foreignKey: "organizationId" });
