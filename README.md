@@ -43,19 +43,19 @@ $ npx sequelize db:create
 You can run migration scripts by following command:
 
 ```sh
-$ npx sequelize db:migrate
+$ npm run migrations
 ```
 
 For reverting migrations:
 
 ```sh
-$ npx sequelize db:migrate:undo
+$ npm run migrations:undo
 ```
 
 To populate the database with test data run :
 
 ```sh
-$ npx sequelize db:seed:all
+$ npm run seeders
 ```
 
 # Usage
