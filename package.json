@@ -6,6 +6,9 @@
   "scripts": {
     "start": "NODE_ENV=production node ./dist/index.js",
     "heroku-postbuild": "npm run tsc",
+    "migrations": "sequelize db:migrate",
+    "migrations:undo": "sequelize db:migrate:undo",
+    "seeders": "sequelize db:seed:all",
     "tsc": "tsc",
     "dev": "nodemon",
     "build": "tsc",

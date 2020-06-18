@@ -1,24 +1,70 @@
 {
-  message: 'started at http://localhost:4000',
+  message: "Field isDeleted: Couldn't find type Number in any of the schemas.",
   level: 'warn',
-  timestamp: '2020-06-16T10:53:59.441Z'
-}
-{
-  message: 'No organization found of that username',
-  method: 'POST',
-  status: 500,
-  urlpath: '/',
-  duration: 0.03,
-  level: 'info',
-  timestamp: '2020-06-16T10:54:10.057Z'
+  timestamp: '2020-06-18T13:58:45.573Z'
 }
 {
   message: 'started at http://localhost:4000',
   level: 'warn',
-  timestamp: '2020-06-16T10:55:01.863Z'
+  timestamp: '2020-06-18T14:00:09.280Z'
 }
 {
   message: 'started at http://localhost:4000',
   level: 'warn',
-  timestamp: '2020-06-16T16:59:36.180Z'
+  timestamp: '2020-06-18T14:03:41.008Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-06-18T14:05:50.846Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-06-18T14:10:12.361Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-06-18T14:16:11.519Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-06-18T14:22:04.966Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-06-18T14:24:29.280Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-06-18T14:27:19.954Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-06-18T14:28:45.187Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-06-18T18:36:23.348Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-06-18T18:39:34.821Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-06-18T18:40:16.488Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-06-18T18:49:17.733Z'
 }

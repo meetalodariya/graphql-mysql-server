@@ -5,15 +5,23 @@ import Mutation from "./resolvers/Mutation";
 import Organization from "./models/organization";
 import DocuSign from "./models/docusign";
 import Dropbox from "./models/dropbox";
-import * as db from "./models/index";
+import { sequelize } from "./models/index";
 import logger from "@sorthr/hr-logger";
+import Employee from "./models/employee";
 
 // @ts-ignore
 Organization.hasOne(DocuSign, { foreignKey: "organizationId" });
 // @ts-ignore
 Organization.hasOne(Dropbox, { foreignKey: "organizationId" });
+// @ts-ignore
+Employee.belongsTo(Organization, { foreignKey: "organizationId" });
 
-db.sequelize
+const models = {
+  Organization,
+  Employee,
+};
+
+sequelize
   // .sync({ force: true })
   .sync()
   .then(() => {
@@ -29,7 +37,7 @@ db.sequelize
           originalUrl: request.url,
           startTime: new Date(),
         };
-        return { Organization, logger, req };
+        return { models, logger, req };
       },
     });
     server.start((config) => {

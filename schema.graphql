@@ -6,6 +6,25 @@ type Query {
 type Mutation {
   createOrganization(data: CreateOrganization): Organization!
   deleteOrganization(id: ID): Organization!
+  createEmployee(data: CreateEmployee): Employee!
+}
+
+type Employee {
+  employeeId: ID!
+  uuid: ID!
+  firstName: String!
+  lastName: String!
+  password: String!
+  companyEmail: String!
+  companyEmployeeId: String!
+  personalEmail: String!
+  companyPhone: String!
+  personalPhone: String!
+  isDeleted: Int!
+  notes: String!
+  organizationId: ID!
+  creationDate: String
+  updateDate: String
 }
 
 type Organization {
@@ -42,4 +61,12 @@ input CreateOrganization {
   name: String!
   username: String!
   password: String!
+}
+
+input CreateEmployee {
+  firstName: String!
+  lastName: String!
+  password: String!
+  notes: String!
+  companyEmail: String!
 }

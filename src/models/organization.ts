@@ -27,6 +27,10 @@ export default sequelize.define(
       type: Sequelize.STRING(255),
       allowNull: false,
     },
+    email: {
+      type: Sequelize.STRING(255),
+      unique: true,
+    },
   },
   {
     timestamps: true,
