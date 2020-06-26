@@ -1,4 +1,5 @@
 import { uuid } from "uuidv4";
+import HttpError from "../exceptions/http-error";
 
 export default {
   async createOrganization(parent, { data }, { models }, info) {
@@ -11,15 +12,27 @@ export default {
     return organization;
   },
   async createEmployee(parent, { data }, { models, logger, req }, info) {
-    const employee = await models.Employee.create({
-      uuid: uuid(),
-      firstName: data.firstName,
-      lastName: data.lastName,
-      companyEmail: data.companyEmail,
-      password: data.password,
-      notes: data.notes,
-    });
-    console.log(employee);
-    return employee;
+    try {
+      const employee = await models.Employee.create({
+        uuid: uuid(),
+        firstName: data.firstName,
+        lastName: data.lastName,
+        password: data.password,
+        companyEmail: data.companyEmail,
+        companyEmployeeId: data.companyEmployeeId,
+        personalEmail: data.personalEmail,
+        companyPhone: data.companyPhone,
+        personalPhone: data.personalPhone,
+        notes: data.notes,
+        organizationId: data.organizationId,
+      });
+      return employee;
+    } catch (err) {
+      if (!(err instanceof HttpError)) {
+        err.statusCode = 500;
+      }
+      logger[err.level || "error"](err, req);
+      throw err;
+    }
   },
 };

@@ -12,6 +12,7 @@ module.exports = {
       uuid: {
         type: Sequelize.UUID,
         unique: true,
+        allowNull: false,
       },
       firstName: {
         type: Sequelize.STRING(255),
@@ -45,7 +46,8 @@ module.exports = {
       },
       password: {
         type: Sequelize.STRING(255),
-        allowNull: false,
+        allowNull: true,
+        defaultValue: null,
       },
       isDeleted: {
         type: Sequelize.BOOLEAN,

@@ -13,6 +13,7 @@ export default sequelize.define(
     uuid: {
       type: Sequelize.UUID,
       unique: true,
+      allowNull: false,
     },
     accountId: {
       unique: true,

@@ -1,6 +1,9 @@
 type Query {
   organizations: [Organization!]!
   organization(username: String!): Organization!
+  organizationByUuid(uuid: String!): Organization!
+  employee(companyEmail: String!): Employee!
+  employeeByUuid(uuid: ID!): Employee!
 }
 
 type Mutation {
@@ -14,15 +17,15 @@ type Employee {
   uuid: ID!
   firstName: String!
   lastName: String!
-  password: String!
+  password: String
   companyEmail: String!
-  companyEmployeeId: String!
-  personalEmail: String!
-  companyPhone: String!
-  personalPhone: String!
+  companyEmployeeId: String
+  personalEmail: String
+  companyPhone: String
+  personalPhone: String
   isDeleted: Int!
-  notes: String!
-  organizationId: ID!
+  notes: String
+  organizationId: Int
   creationDate: String
   updateDate: String
 }
@@ -66,7 +69,12 @@ input CreateOrganization {
 input CreateEmployee {
   firstName: String!
   lastName: String!
-  password: String!
-  notes: String!
   companyEmail: String!
+  password: String
+  companyEmployeeId: String
+  personalEmail: String
+  companyPhone: String
+  personalPhone: String
+  notes: String
+  organizationId: Int
 }
