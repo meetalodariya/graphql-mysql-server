@@ -505,3 +505,258 @@
   level: 'warn',
   timestamp: '2020-06-24T04:14:14.291Z'
 }
+{
+  message: 'No employee found of that id',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.093,
+  level: 'info',
+  timestamp: '2020-06-26T19:50:39.198Z'
+}
+{
+  message: 'No employee found of that id',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.01,
+  level: 'info',
+  timestamp: '2020-06-26T19:50:53.520Z'
+}
+{
+  message: 'No employee found of that id',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.01,
+  level: 'info',
+  timestamp: '2020-06-26T19:52:13.432Z'
+}
+{
+  message: 'No employee found of that id',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.016,
+  level: 'info',
+  timestamp: '2020-06-26T19:53:28.757Z'
+}
+{
+  message: 'No employee found of that id',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.005,
+  level: 'info',
+  timestamp: '2020-06-26T19:54:41.884Z'
+}
+{
+  message: 'No employee found of that id',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.008,
+  level: 'info',
+  timestamp: '2020-06-26T19:57:54.784Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-06-28T11:47:06.658Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-06-28T11:47:33.782Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-06-28T11:50:15.227Z'
+}
+{
+  message: 'No employee found of that company email',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.065,
+  level: 'info',
+  timestamp: '2020-06-28T16:16:14.414Z'
+}
+{
+  message: 'Validation error',
+  method: 'POST',
+  stack: 'SequelizeUniqueConstraintError: Validation error\n' +
+    '    at Query.formatError (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/sequelize/lib/dialects/mysql/query.js:223:16)\n' +
+    '    at Execute.handler [as onResult] (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/sequelize/lib/dialects/mysql/query.js:51:23)\n' +
+    '    at Execute.execute (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/commands/command.js:30:14)\n' +
+    '    at Connection.handlePacket (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/connection.js:417:32)\n' +
+    '    at PacketParser.onPacket (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/connection.js:75:12)\n' +
+    '    at PacketParser.executeStart (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/packet_parser.js:75:16)\n' +
+    '    at Socket.<anonymous> (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/connection.js:82:25)\n' +
+    '    at Socket.emit (events.js:315:20)\n' +
+    '    at Socket.EventEmitter.emit (domain.js:485:12)\n' +
+    '    at addChunk (_stream_readable.js:302:12)\n' +
+    '    at readableAddChunk (_stream_readable.js:278:9)\n' +
+    '    at Socket.Readable.push (_stream_readable.js:217:10)\n' +
+    '    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)',
+  status: 500,
+  urlpath: '/',
+  duration: 0.113,
+  level: 'error',
+  timestamp: '2020-06-28T16:16:30.566Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-06-28T16:18:12.376Z'
+}
+{
+  message: 'No employee found of that company email',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.032,
+  level: 'info',
+  timestamp: '2020-06-28T16:18:44.471Z'
+}
+{
+  message: 'Validation error',
+  method: 'POST',
+  stack: 'SequelizeUniqueConstraintError: Validation error\n' +
+    '    at Query.formatError (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/sequelize/lib/dialects/mysql/query.js:223:16)\n' +
+    '    at Execute.handler (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/sequelize/lib/dialects/mysql/query.js:51:23)\n' +
+    '    at DatastoreShim.applySegment (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/newrelic/lib/shim/shim.js:1425:20)\n' +
+    '    at Execute.wrappedCallback [as onResult] (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/newrelic/lib/shim/shim.js:1282:21)\n' +
+    '    at Execute.execute (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/commands/command.js:30:14)\n' +
+    '    at Connection.handlePacket (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/connection.js:417:32)\n' +
+    '    at PacketParser.onPacket (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/connection.js:75:12)\n' +
+    '    at PacketParser.executeStart (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/packet_parser.js:75:16)\n' +
+    '    at Socket.<anonymous> (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/connection.js:82:25)\n' +
+    '    at Socket.emit (events.js:315:20)\n' +
+    '    at Shim.applySegment (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/newrelic/lib/shim/shim.js:1425:20)\n' +
+    '    at Socket.wrapper (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/newrelic/lib/shim/shim.js:2087:17)\n' +
+    '    at Shim.applySegment (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/newrelic/lib/shim/shim.js:1425:20)\n' +
+    '    at Socket.wrapper [as emit] (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/newrelic/lib/shim/shim.js:2087:17)\n' +
+    '    at addChunk (_stream_readable.js:302:12)\n' +
+    '    at readableAddChunk (_stream_readable.js:278:9)\n' +
+    '    at Socket.Readable.push (_stream_readable.js:217:10)\n' +
+    '    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)\n' +
+    '    at Shim.applySegment (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/newrelic/lib/shim/shim.js:1425:20)\n' +
+    '    at TCP.wrapper (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/newrelic/lib/shim/shim.js:2087:17)',
+  status: 500,
+  urlpath: '/',
+  duration: 17.757,
+  level: 'error',
+  timestamp: '2020-06-28T16:19:04.656Z'
+}
+{
+  message: 'No employee found of that company email',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.014,
+  level: 'info',
+  timestamp: '2020-06-28T16:20:41.201Z'
+}
+{
+  message: 'Validation error',
+  method: 'POST',
+  stack: 'SequelizeUniqueConstraintError: Validation error\n' +
+    '    at Query.formatError (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/sequelize/lib/dialects/mysql/query.js:223:16)\n' +
+    '    at Execute.handler (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/sequelize/lib/dialects/mysql/query.js:51:23)\n' +
+    '    at DatastoreShim.applySegment (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/newrelic/lib/shim/shim.js:1425:20)\n' +
+    '    at Execute.wrappedCallback [as onResult] (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/newrelic/lib/shim/shim.js:1282:21)\n' +
+    '    at Execute.execute (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/commands/command.js:30:14)\n' +
+    '    at Connection.handlePacket (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/connection.js:417:32)\n' +
+    '    at PacketParser.onPacket (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/connection.js:75:12)\n' +
+    '    at PacketParser.executeStart (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/packet_parser.js:75:16)\n' +
+    '    at Socket.<anonymous> (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/connection.js:82:25)\n' +
+    '    at Socket.emit (events.js:315:20)\n' +
+    '    at Shim.applySegment (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/newrelic/lib/shim/shim.js:1425:20)\n' +
+    '    at Socket.wrapper (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/newrelic/lib/shim/shim.js:2087:17)\n' +
+    '    at Shim.applySegment (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/newrelic/lib/shim/shim.js:1425:20)\n' +
+    '    at Socket.wrapper [as emit] (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/newrelic/lib/shim/shim.js:2087:17)\n' +
+    '    at addChunk (_stream_readable.js:302:12)\n' +
+    '    at readableAddChunk (_stream_readable.js:278:9)\n' +
+    '    at Socket.Readable.push (_stream_readable.js:217:10)\n' +
+    '    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)\n' +
+    '    at Shim.applySegment (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/newrelic/lib/shim/shim.js:1425:20)\n' +
+    '    at TCP.wrapper (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/newrelic/lib/shim/shim.js:2087:17)',
+  status: 500,
+  urlpath: '/',
+  duration: 2.941,
+  level: 'error',
+  timestamp: '2020-06-28T16:20:45.169Z'
+}
+{
+  message: 'No employee found of that company email',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.012,
+  level: 'info',
+  timestamp: '2020-06-28T16:21:18.357Z'
+}
+{
+  message: 'Validation error',
+  method: 'POST',
+  stack: 'SequelizeUniqueConstraintError: Validation error\n' +
+    '    at Query.formatError (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/sequelize/lib/dialects/mysql/query.js:223:16)\n' +
+    '    at Execute.handler (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/sequelize/lib/dialects/mysql/query.js:51:23)\n' +
+    '    at DatastoreShim.applySegment (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/newrelic/lib/shim/shim.js:1425:20)\n' +
+    '    at Execute.wrappedCallback [as onResult] (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/newrelic/lib/shim/shim.js:1282:21)\n' +
+    '    at Execute.execute (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/commands/command.js:30:14)\n' +
+    '    at Connection.handlePacket (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/connection.js:417:32)\n' +
+    '    at PacketParser.onPacket (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/connection.js:75:12)\n' +
+    '    at PacketParser.executeStart (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/packet_parser.js:75:16)\n' +
+    '    at Socket.<anonymous> (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/connection.js:82:25)\n' +
+    '    at Socket.emit (events.js:315:20)\n' +
+    '    at Shim.applySegment (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/newrelic/lib/shim/shim.js:1425:20)\n' +
+    '    at Socket.wrapper (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/newrelic/lib/shim/shim.js:2087:17)\n' +
+    '    at Shim.applySegment (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/newrelic/lib/shim/shim.js:1425:20)\n' +
+    '    at Socket.wrapper [as emit] (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/newrelic/lib/shim/shim.js:2087:17)\n' +
+    '    at addChunk (_stream_readable.js:302:12)\n' +
+    '    at readableAddChunk (_stream_readable.js:278:9)\n' +
+    '    at Socket.Readable.push (_stream_readable.js:217:10)\n' +
+    '    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)\n' +
+    '    at Shim.applySegment (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/newrelic/lib/shim/shim.js:1425:20)\n' +
+    '    at TCP.wrapper (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/newrelic/lib/shim/shim.js:2087:17)',
+  status: 500,
+  urlpath: '/',
+  duration: 98.091,
+  level: 'error',
+  timestamp: '2020-06-28T16:22:57.971Z'
+}
+{
+  message: 'No employee found of that company email',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.022,
+  level: 'info',
+  timestamp: '2020-06-28T16:24:12.377Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-06-28T16:27:49.188Z'
+}
+{
+  message: 'No employee found of that company email',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.014,
+  level: 'info',
+  timestamp: '2020-06-28T16:28:26.154Z'
+}
+{
+  message: 'No employee found of that company email',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.01,
+  level: 'info',
+  timestamp: '2020-06-28T16:29:51.555Z'
+}

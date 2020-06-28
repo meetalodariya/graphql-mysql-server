@@ -1,4 +1,4 @@
-import "newrelic";
+// import "newrelic";
 import { GraphQLServer } from "graphql-yoga";
 import Query from "./resolvers/Query";
 import Mutation from "./resolvers/Mutation";
