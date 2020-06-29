@@ -1,254 +1,29 @@
 {
-  message: "Field isDeleted: Couldn't find type Number in any of the schemas.",
-  level: 'warn',
-  timestamp: '2020-06-18T13:58:45.573Z'
-}
-{
-  message: 'started at http://localhost:4000',
-  level: 'warn',
-  timestamp: '2020-06-18T14:00:09.280Z'
-}
-{
-  message: 'started at http://localhost:4000',
-  level: 'warn',
-  timestamp: '2020-06-18T14:03:41.008Z'
-}
-{
-  message: 'started at http://localhost:4000',
-  level: 'warn',
-  timestamp: '2020-06-18T14:05:50.846Z'
-}
-{
-  message: 'started at http://localhost:4000',
-  level: 'warn',
-  timestamp: '2020-06-18T14:10:12.361Z'
-}
-{
-  message: 'started at http://localhost:4000',
-  level: 'warn',
-  timestamp: '2020-06-18T14:16:11.519Z'
-}
-{
-  message: 'started at http://localhost:4000',
-  level: 'warn',
-  timestamp: '2020-06-18T14:22:04.966Z'
-}
-{
-  message: 'started at http://localhost:4000',
-  level: 'warn',
-  timestamp: '2020-06-18T14:24:29.280Z'
-}
-{
-  message: 'started at http://localhost:4000',
-  level: 'warn',
-  timestamp: '2020-06-18T14:27:19.954Z'
-}
-{
-  message: 'started at http://localhost:4000',
-  level: 'warn',
-  timestamp: '2020-06-18T14:28:45.187Z'
-}
-{
-  message: 'started at http://localhost:4000',
-  level: 'warn',
-  timestamp: '2020-06-18T18:36:23.348Z'
-}
-{
-  message: 'started at http://localhost:4000',
-  level: 'warn',
-  timestamp: '2020-06-18T18:39:34.821Z'
-}
-{
-  message: 'started at http://localhost:4000',
-  level: 'warn',
-  timestamp: '2020-06-18T18:40:16.488Z'
-}
-{
-  message: 'started at http://localhost:4000',
-  level: 'warn',
-  timestamp: '2020-06-18T18:49:17.733Z'
-}
-{
-  message: 'started at http://localhost:4000',
-  level: 'warn',
-  timestamp: '2020-06-19T16:25:43.378Z'
-}
-{
-  message: 'started at http://localhost:4000',
-  level: 'warn',
-  timestamp: '2020-06-19T16:33:10.138Z'
-}
-{
-  message: 'started at http://localhost:4000',
-  level: 'warn',
-  timestamp: '2020-06-19T16:35:31.375Z'
-}
-{
-  message: 'started at http://localhost:4000',
-  level: 'warn',
-  timestamp: '2020-06-19T16:37:39.907Z'
-}
-{
-  message: 'started at http://localhost:4000',
-  level: 'warn',
-  timestamp: '2020-06-19T16:38:10.264Z'
-}
-{
-  message: 'started at http://localhost:4000',
-  level: 'warn',
-  timestamp: '2020-06-19T16:38:53.892Z'
-}
-{
-  message: 'started at http://localhost:4000',
-  level: 'warn',
-  timestamp: '2020-06-19T16:39:22.220Z'
-}
-{
-  message: 'started at http://localhost:4000',
-  level: 'warn',
-  timestamp: '2020-06-19T17:01:01.791Z'
-}
-{
-  message: 'started at http://localhost:4000',
-  level: 'warn',
-  timestamp: '2020-06-19T17:13:45.595Z'
-}
-{
-  message: 'started at http://localhost:4000',
-  level: 'warn',
-  timestamp: '2020-06-19T17:17:18.825Z'
-}
-{
-  message: 'No employee found of that company email',
-  method: 'POST',
-  status: 500,
-  urlpath: '/',
-  duration: 0.022,
-  level: 'info',
-  timestamp: '2020-06-19T17:17:21.688Z'
-}
-{
-  message: 'No employee found of that company email',
-  method: 'POST',
-  status: 500,
-  urlpath: '/',
-  duration: 0.011,
-  level: 'info',
-  timestamp: '2020-06-19T17:20:57.526Z'
-}
-{
-  message: 'No employee found of that company email',
-  method: 'POST',
-  status: 500,
-  urlpath: '/',
-  duration: 0.013,
-  level: 'info',
-  timestamp: '2020-06-19T17:26:44.067Z'
-}
-{
-  message: 'No employee found of that company email',
-  method: 'POST',
-  status: 500,
-  urlpath: '/',
-  duration: 0.023,
-  level: 'info',
-  timestamp: '2020-06-19T17:27:24.436Z'
-}
-{
-  message: 'No employee found of that company email',
-  method: 'POST',
-  status: 500,
-  urlpath: '/',
-  duration: 0.014,
-  level: 'info',
-  timestamp: '2020-06-19T17:27:45.525Z'
-}
-{
-  message: 'No employee found of that company email',
-  method: 'POST',
-  status: 500,
-  urlpath: '/',
-  duration: 0.011,
-  level: 'info',
-  timestamp: '2020-06-19T17:28:12.054Z'
-}
-{
-  message: 'No employee found of that company email',
-  method: 'POST',
-  status: 500,
-  urlpath: '/',
-  duration: 0.016,
-  level: 'info',
-  timestamp: '2020-06-19T17:35:10.931Z'
-}
-{
-  message: 'No employee found of that company email',
-  method: 'POST',
-  status: 500,
-  urlpath: '/',
-  duration: 0.021,
-  level: 'info',
-  timestamp: '2020-06-19T17:35:54.885Z'
-}
-{
-  message: 'No employee found of that company email',
-  method: 'POST',
-  status: 500,
-  urlpath: '/',
-  duration: 0.011,
-  level: 'info',
-  timestamp: '2020-06-19T17:36:07.344Z'
-}
-{
-  message: 'No employee found of that company email',
-  method: 'POST',
-  status: 500,
-  urlpath: '/',
-  duration: 0.004,
-  level: 'info',
-  timestamp: '2020-06-19T17:38:00.019Z'
-}
-{
-  message: 'No employee found of that company email',
-  method: 'POST',
-  status: 500,
-  urlpath: '/',
-  duration: 0.01,
-  level: 'info',
-  timestamp: '2020-06-19T17:43:21.119Z'
-}
-{
-  message: 'No employee found of that company email',
+  message: 'No organization found of that uuid',
   method: 'POST',
   status: 500,
   urlpath: '/',
   duration: 0.035,
   level: 'info',
-  timestamp: '2020-06-19T18:53:30.058Z'
+  timestamp: '2020-06-29T13:24:03.737Z'
 }
 {
-  message: 'started at http://localhost:4000',
-  level: 'warn',
-  timestamp: '2020-06-20T04:21:41.047Z'
-}
-{
-  message: 'started at http://localhost:4000',
-  level: 'warn',
-  timestamp: '2020-06-20T16:52:55.184Z'
-}
-{
-  message: 'No employee found of that id',
+  message: 'No organization found of that uuid',
   method: 'POST',
   status: 500,
   urlpath: '/',
-  duration: 0.015,
+  duration: 0.011,
   level: 'info',
-  timestamp: '2020-06-20T16:53:17.621Z'
+  timestamp: '2020-06-29T13:26:09.412Z'
 }
 {
-  message: 'started at http://localhost:4000',
-  level: 'warn',
-  timestamp: '2020-06-20T16:54:33.779Z'
+  message: 'No organization found of that username',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.04,
+  level: 'info',
+  timestamp: '2020-06-29T13:39:42.911Z'
 }
 {
   message: 'No employee found of that company email',
@@ -257,34 +32,16 @@
   urlpath: '/',
   duration: 0.011,
   level: 'info',
-  timestamp: '2020-06-20T17:11:17.798Z'
-}
-{
-  message: 'No employee found of that id',
-  method: 'POST',
-  status: 500,
-  urlpath: '/',
-  duration: 0.01,
-  level: 'info',
-  timestamp: '2020-06-20T17:43:05.615Z'
+  timestamp: '2020-06-29T13:41:03.613Z'
 }
 {
   message: 'No employee found of that company email',
   method: 'POST',
   status: 500,
   urlpath: '/',
-  duration: 0.011,
+  duration: 0.02,
   level: 'info',
-  timestamp: '2020-06-20T17:50:29.332Z'
-}
-{
-  message: 'No employee found of that company email',
-  method: 'POST',
-  status: 500,
-  urlpath: '/',
-  duration: 0.007,
-  level: 'info',
-  timestamp: '2020-06-20T17:51:12.049Z'
+  timestamp: '2020-06-29T13:41:08.059Z'
 }
 {
   message: 'No employee found of that company email',
@@ -293,26 +50,16 @@
   urlpath: '/',
   duration: 0.004,
   level: 'info',
-  timestamp: '2020-06-20T18:03:56.459Z'
-}
-{
-  message: 'Syntax Error: Cannot parse the unexpected character ";".',
-  level: 'warn',
-  timestamp: '2020-06-21T19:39:03.299Z'
-}
-{
-  message: 'started at http://localhost:4000',
-  level: 'warn',
-  timestamp: '2020-06-21T19:39:43.890Z'
+  timestamp: '2020-06-29T13:41:10.216Z'
 }
 {
   message: 'No employee found of that company email',
   method: 'POST',
   status: 500,
   urlpath: '/',
-  duration: 0.009,
+  duration: 0.003,
   level: 'info',
-  timestamp: '2020-06-21T19:42:10.982Z'
+  timestamp: '2020-06-29T13:41:13.590Z'
 }
 {
   message: 'No employee found of that company email',
@@ -321,16 +68,16 @@
   urlpath: '/',
   duration: 0.006,
   level: 'info',
-  timestamp: '2020-06-21T19:42:39.676Z'
+  timestamp: '2020-06-29T13:41:15.979Z'
 }
 {
   message: 'No employee found of that company email',
   method: 'POST',
   status: 500,
   urlpath: '/',
-  duration: 0.005,
+  duration: 0.004,
   level: 'info',
-  timestamp: '2020-06-21T19:42:45.648Z'
+  timestamp: '2020-06-29T13:41:18.467Z'
 }
 {
   message: 'No employee found of that company email',
@@ -339,424 +86,14 @@
   urlpath: '/',
   duration: 0.006,
   level: 'info',
-  timestamp: '2020-06-21T19:44:52.610Z'
+  timestamp: '2020-06-29T13:41:20.660Z'
 }
 {
   message: 'No employee found of that company email',
   method: 'POST',
   status: 500,
   urlpath: '/',
-  duration: 0.005,
+  duration: 0.004,
   level: 'info',
-  timestamp: '2020-06-21T19:46:19.223Z'
-}
-{
-  message: 'started at http://localhost:4000',
-  level: 'warn',
-  timestamp: '2020-06-21T20:14:37.958Z'
-}
-{
-  message: 'No organization found of that uuid',
-  method: 'POST',
-  status: 500,
-  urlpath: '/',
-  duration: 0.027,
-  level: 'info',
-  timestamp: '2020-06-21T20:17:07.916Z'
-}
-{
-  message: 'No organization found of that uuid',
-  method: 'POST',
-  status: 500,
-  urlpath: '/',
-  duration: 0.013,
-  level: 'info',
-  timestamp: '2020-06-21T20:17:29.522Z'
-}
-{
-  message: 'No organization found of that uuid',
-  method: 'POST',
-  status: 500,
-  urlpath: '/',
-  duration: 0.273,
-  level: 'info',
-  timestamp: '2020-06-22T03:21:23.738Z'
-}
-{
-  message: 'No organization found of that uuid',
-  method: 'POST',
-  status: 500,
-  urlpath: '/',
-  duration: 0.027,
-  level: 'info',
-  timestamp: '2020-06-22T03:28:24.333Z'
-}
-{
-  message: 'started at http://localhost:4000',
-  level: 'warn',
-  timestamp: '2020-06-22T03:37:09.618Z'
-}
-{
-  message: 'No employee found of that company email',
-  method: 'POST',
-  status: 500,
-  urlpath: '/',
-  duration: 0.054,
-  level: 'info',
-  timestamp: '2020-06-22T03:56:46.708Z'
-}
-{
-  message: 'No employee found of that company email',
-  method: 'POST',
-  status: 500,
-  urlpath: '/',
-  duration: 0.024,
-  level: 'info',
-  timestamp: '2020-06-22T04:00:40.643Z'
-}
-{
-  message: 'No employee found of that company email',
-  method: 'POST',
-  status: 500,
-  urlpath: '/',
-  duration: 0.021,
-  level: 'info',
-  timestamp: '2020-06-22T04:06:05.848Z'
-}
-{
-  message: 'No employee found of that company email',
-  method: 'POST',
-  status: 500,
-  urlpath: '/',
-  duration: 0.026,
-  level: 'info',
-  timestamp: '2020-06-22T04:15:01.244Z'
-}
-{
-  message: 'No employee found of that company email',
-  method: 'POST',
-  status: 500,
-  urlpath: '/',
-  duration: 0.013,
-  level: 'info',
-  timestamp: '2020-06-22T04:24:05.278Z'
-}
-{
-  message: 'No employee found of that company email',
-  method: 'POST',
-  status: 500,
-  urlpath: '/',
-  duration: 0.024,
-  level: 'info',
-  timestamp: '2020-06-22T04:27:20.751Z'
-}
-{
-  message: 'No employee found of that company email',
-  method: 'POST',
-  status: 500,
-  urlpath: '/',
-  duration: 0.013,
-  level: 'info',
-  timestamp: '2020-06-22T04:28:52.157Z'
-}
-{
-  message: 'No employee found of that company email',
-  method: 'POST',
-  status: 500,
-  urlpath: '/',
-  duration: 0.024,
-  level: 'info',
-  timestamp: '2020-06-22T05:08:27.880Z'
-}
-{
-  message: 'No employee found of that company email',
-  method: 'POST',
-  status: 500,
-  urlpath: '/',
-  duration: 0.022,
-  level: 'info',
-  timestamp: '2020-06-22T05:10:19.767Z'
-}
-{
-  message: 'No employee found of that company email',
-  method: 'POST',
-  status: 500,
-  urlpath: '/',
-  duration: 0.012,
-  level: 'info',
-  timestamp: '2020-06-22T05:10:47.580Z'
-}
-{
-  message: 'No employee found of that company email',
-  method: 'POST',
-  status: 500,
-  urlpath: '/',
-  duration: 0.018,
-  level: 'info',
-  timestamp: '2020-06-22T05:15:42.848Z'
-}
-{
-  message: 'started at http://localhost:4000',
-  level: 'warn',
-  timestamp: '2020-06-22T05:39:04.282Z'
-}
-{
-  message: 'started at http://localhost:4000',
-  level: 'warn',
-  timestamp: '2020-06-24T04:14:14.291Z'
-}
-{
-  message: 'No employee found of that id',
-  method: 'POST',
-  status: 500,
-  urlpath: '/',
-  duration: 0.093,
-  level: 'info',
-  timestamp: '2020-06-26T19:50:39.198Z'
-}
-{
-  message: 'No employee found of that id',
-  method: 'POST',
-  status: 500,
-  urlpath: '/',
-  duration: 0.01,
-  level: 'info',
-  timestamp: '2020-06-26T19:50:53.520Z'
-}
-{
-  message: 'No employee found of that id',
-  method: 'POST',
-  status: 500,
-  urlpath: '/',
-  duration: 0.01,
-  level: 'info',
-  timestamp: '2020-06-26T19:52:13.432Z'
-}
-{
-  message: 'No employee found of that id',
-  method: 'POST',
-  status: 500,
-  urlpath: '/',
-  duration: 0.016,
-  level: 'info',
-  timestamp: '2020-06-26T19:53:28.757Z'
-}
-{
-  message: 'No employee found of that id',
-  method: 'POST',
-  status: 500,
-  urlpath: '/',
-  duration: 0.005,
-  level: 'info',
-  timestamp: '2020-06-26T19:54:41.884Z'
-}
-{
-  message: 'No employee found of that id',
-  method: 'POST',
-  status: 500,
-  urlpath: '/',
-  duration: 0.008,
-  level: 'info',
-  timestamp: '2020-06-26T19:57:54.784Z'
-}
-{
-  message: 'started at http://localhost:4000',
-  level: 'warn',
-  timestamp: '2020-06-28T11:47:06.658Z'
-}
-{
-  message: 'started at http://localhost:4000',
-  level: 'warn',
-  timestamp: '2020-06-28T11:47:33.782Z'
-}
-{
-  message: 'started at http://localhost:4000',
-  level: 'warn',
-  timestamp: '2020-06-28T11:50:15.227Z'
-}
-{
-  message: 'No employee found of that company email',
-  method: 'POST',
-  status: 500,
-  urlpath: '/',
-  duration: 0.065,
-  level: 'info',
-  timestamp: '2020-06-28T16:16:14.414Z'
-}
-{
-  message: 'Validation error',
-  method: 'POST',
-  stack: 'SequelizeUniqueConstraintError: Validation error\n' +
-    '    at Query.formatError (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/sequelize/lib/dialects/mysql/query.js:223:16)\n' +
-    '    at Execute.handler [as onResult] (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/sequelize/lib/dialects/mysql/query.js:51:23)\n' +
-    '    at Execute.execute (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/commands/command.js:30:14)\n' +
-    '    at Connection.handlePacket (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/connection.js:417:32)\n' +
-    '    at PacketParser.onPacket (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/connection.js:75:12)\n' +
-    '    at PacketParser.executeStart (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/packet_parser.js:75:16)\n' +
-    '    at Socket.<anonymous> (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/connection.js:82:25)\n' +
-    '    at Socket.emit (events.js:315:20)\n' +
-    '    at Socket.EventEmitter.emit (domain.js:485:12)\n' +
-    '    at addChunk (_stream_readable.js:302:12)\n' +
-    '    at readableAddChunk (_stream_readable.js:278:9)\n' +
-    '    at Socket.Readable.push (_stream_readable.js:217:10)\n' +
-    '    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)',
-  status: 500,
-  urlpath: '/',
-  duration: 0.113,
-  level: 'error',
-  timestamp: '2020-06-28T16:16:30.566Z'
-}
-{
-  message: 'started at http://localhost:4000',
-  level: 'warn',
-  timestamp: '2020-06-28T16:18:12.376Z'
-}
-{
-  message: 'No employee found of that company email',
-  method: 'POST',
-  status: 500,
-  urlpath: '/',
-  duration: 0.032,
-  level: 'info',
-  timestamp: '2020-06-28T16:18:44.471Z'
-}
-{
-  message: 'Validation error',
-  method: 'POST',
-  stack: 'SequelizeUniqueConstraintError: Validation error\n' +
-    '    at Query.formatError (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/sequelize/lib/dialects/mysql/query.js:223:16)\n' +
-    '    at Execute.handler (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/sequelize/lib/dialects/mysql/query.js:51:23)\n' +
-    '    at DatastoreShim.applySegment (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/newrelic/lib/shim/shim.js:1425:20)\n' +
-    '    at Execute.wrappedCallback [as onResult] (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/newrelic/lib/shim/shim.js:1282:21)\n' +
-    '    at Execute.execute (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/commands/command.js:30:14)\n' +
-    '    at Connection.handlePacket (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/connection.js:417:32)\n' +
-    '    at PacketParser.onPacket (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/connection.js:75:12)\n' +
-    '    at PacketParser.executeStart (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/packet_parser.js:75:16)\n' +
-    '    at Socket.<anonymous> (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/connection.js:82:25)\n' +
-    '    at Socket.emit (events.js:315:20)\n' +
-    '    at Shim.applySegment (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/newrelic/lib/shim/shim.js:1425:20)\n' +
-    '    at Socket.wrapper (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/newrelic/lib/shim/shim.js:2087:17)\n' +
-    '    at Shim.applySegment (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/newrelic/lib/shim/shim.js:1425:20)\n' +
-    '    at Socket.wrapper [as emit] (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/newrelic/lib/shim/shim.js:2087:17)\n' +
-    '    at addChunk (_stream_readable.js:302:12)\n' +
-    '    at readableAddChunk (_stream_readable.js:278:9)\n' +
-    '    at Socket.Readable.push (_stream_readable.js:217:10)\n' +
-    '    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)\n' +
-    '    at Shim.applySegment (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/newrelic/lib/shim/shim.js:1425:20)\n' +
-    '    at TCP.wrapper (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/newrelic/lib/shim/shim.js:2087:17)',
-  status: 500,
-  urlpath: '/',
-  duration: 17.757,
-  level: 'error',
-  timestamp: '2020-06-28T16:19:04.656Z'
-}
-{
-  message: 'No employee found of that company email',
-  method: 'POST',
-  status: 500,
-  urlpath: '/',
-  duration: 0.014,
-  level: 'info',
-  timestamp: '2020-06-28T16:20:41.201Z'
-}
-{
-  message: 'Validation error',
-  method: 'POST',
-  stack: 'SequelizeUniqueConstraintError: Validation error\n' +
-    '    at Query.formatError (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/sequelize/lib/dialects/mysql/query.js:223:16)\n' +
-    '    at Execute.handler (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/sequelize/lib/dialects/mysql/query.js:51:23)\n' +
-    '    at DatastoreShim.applySegment (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/newrelic/lib/shim/shim.js:1425:20)\n' +
-    '    at Execute.wrappedCallback [as onResult] (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/newrelic/lib/shim/shim.js:1282:21)\n' +
-    '    at Execute.execute (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/commands/command.js:30:14)\n' +
-    '    at Connection.handlePacket (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/connection.js:417:32)\n' +
-    '    at PacketParser.onPacket (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/connection.js:75:12)\n' +
-    '    at PacketParser.executeStart (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/packet_parser.js:75:16)\n' +
-    '    at Socket.<anonymous> (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/connection.js:82:25)\n' +
-    '    at Socket.emit (events.js:315:20)\n' +
-    '    at Shim.applySegment (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/newrelic/lib/shim/shim.js:1425:20)\n' +
-    '    at Socket.wrapper (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/newrelic/lib/shim/shim.js:2087:17)\n' +
-    '    at Shim.applySegment (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/newrelic/lib/shim/shim.js:1425:20)\n' +
-    '    at Socket.wrapper [as emit] (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/newrelic/lib/shim/shim.js:2087:17)\n' +
-    '    at addChunk (_stream_readable.js:302:12)\n' +
-    '    at readableAddChunk (_stream_readable.js:278:9)\n' +
-    '    at Socket.Readable.push (_stream_readable.js:217:10)\n' +
-    '    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)\n' +
-    '    at Shim.applySegment (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/newrelic/lib/shim/shim.js:1425:20)\n' +
-    '    at TCP.wrapper (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/newrelic/lib/shim/shim.js:2087:17)',
-  status: 500,
-  urlpath: '/',
-  duration: 2.941,
-  level: 'error',
-  timestamp: '2020-06-28T16:20:45.169Z'
-}
-{
-  message: 'No employee found of that company email',
-  method: 'POST',
-  status: 500,
-  urlpath: '/',
-  duration: 0.012,
-  level: 'info',
-  timestamp: '2020-06-28T16:21:18.357Z'
-}
-{
-  message: 'Validation error',
-  method: 'POST',
-  stack: 'SequelizeUniqueConstraintError: Validation error\n' +
-    '    at Query.formatError (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/sequelize/lib/dialects/mysql/query.js:223:16)\n' +
-    '    at Execute.handler (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/sequelize/lib/dialects/mysql/query.js:51:23)\n' +
-    '    at DatastoreShim.applySegment (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/newrelic/lib/shim/shim.js:1425:20)\n' +
-    '    at Execute.wrappedCallback [as onResult] (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/newrelic/lib/shim/shim.js:1282:21)\n' +
-    '    at Execute.execute (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/commands/command.js:30:14)\n' +
-    '    at Connection.handlePacket (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/connection.js:417:32)\n' +
-    '    at PacketParser.onPacket (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/connection.js:75:12)\n' +
-    '    at PacketParser.executeStart (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/packet_parser.js:75:16)\n' +
-    '    at Socket.<anonymous> (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/connection.js:82:25)\n' +
-    '    at Socket.emit (events.js:315:20)\n' +
-    '    at Shim.applySegment (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/newrelic/lib/shim/shim.js:1425:20)\n' +
-    '    at Socket.wrapper (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/newrelic/lib/shim/shim.js:2087:17)\n' +
-    '    at Shim.applySegment (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/newrelic/lib/shim/shim.js:1425:20)\n' +
-    '    at Socket.wrapper [as emit] (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/newrelic/lib/shim/shim.js:2087:17)\n' +
-    '    at addChunk (_stream_readable.js:302:12)\n' +
-    '    at readableAddChunk (_stream_readable.js:278:9)\n' +
-    '    at Socket.Readable.push (_stream_readable.js:217:10)\n' +
-    '    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)\n' +
-    '    at Shim.applySegment (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/newrelic/lib/shim/shim.js:1425:20)\n' +
-    '    at TCP.wrapper (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/newrelic/lib/shim/shim.js:2087:17)',
-  status: 500,
-  urlpath: '/',
-  duration: 98.091,
-  level: 'error',
-  timestamp: '2020-06-28T16:22:57.971Z'
-}
-{
-  message: 'No employee found of that company email',
-  method: 'POST',
-  status: 500,
-  urlpath: '/',
-  duration: 0.022,
-  level: 'info',
-  timestamp: '2020-06-28T16:24:12.377Z'
-}
-{
-  message: 'started at http://localhost:4000',
-  level: 'warn',
-  timestamp: '2020-06-28T16:27:49.188Z'
-}
-{
-  message: 'No employee found of that company email',
-  method: 'POST',
-  status: 500,
-  urlpath: '/',
-  duration: 0.014,
-  level: 'info',
-  timestamp: '2020-06-28T16:28:26.154Z'
-}
-{
-  message: 'No employee found of that company email',
-  method: 'POST',
-  status: 500,
-  urlpath: '/',
-  duration: 0.01,
-  level: 'info',
-  timestamp: '2020-06-28T16:29:51.555Z'
+  timestamp: '2020-06-29T13:41:23.112Z'
 }

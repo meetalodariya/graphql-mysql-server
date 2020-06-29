@@ -11,7 +11,7 @@ module.exports = {
           uuid: uuid(),
           name: "john",
           username: "doe",
-          companyEmail: "johndoe@gmail.com",
+          email: "johndoe@gmail.com",
           password:
             "$2b$12$gHLVyK5dl7FP12BW1c31COAO/6I550.UdU8hV2ZVCA1Clh42R9gxC", // 123456
           creationDate: new Date(),

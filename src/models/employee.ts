@@ -29,7 +29,6 @@ export default sequelize.define(
       allowNull: false,
     },
     companyEmployeeId: {
-      unique: true,
       type: Sequelize.STRING(255),
       defaultValue: null,
     },

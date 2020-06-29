@@ -1,5 +1,6 @@
 type Query {
   organizations: [Organization!]!
+  employees: [Employee!]!
   organization(username: String!): Organization!
   organizationByUuid(uuid: String!): Organization!
   employee(companyEmail: String!): Employee!
