@@ -1,4 +1,5 @@
 import HttpError from "../exceptions/http-error";
+import template from "../models/template";
 export default {
   async organizations(parent, args, { models, logger }, info) {},
   async organizationByUuid(parent, args, { models, logger, req }, info) {
@@ -44,7 +45,10 @@ export default {
   async employee(parent, args, { models, logger, req }, info) {
     try {
       const employee = await models.Employee.findOne({
-        where: { companyEmail: args.companyEmail },
+        where: {
+          organizationId: args.organizationId,
+          companyEmail: args.companyEmail,
+        },
       });
       if (!employee) {
         const err = new HttpError("No employee found of that company email");
@@ -64,7 +68,7 @@ export default {
   async employeeByUuid(parent, args, { models, logger, req }, info) {
     try {
       const employee = await models.Employee.findOne({
-        where: { uuid: args.uuid },
+        where: { organizationId: args.organizationId, uuid: args.uuid },
       });
       if (!employee) {
         const err = new HttpError("No employee found of that id");
@@ -83,7 +87,16 @@ export default {
   },
   async employees(parent, args, { models, logger, req }, info) {
     try {
-      return models.Employee.findAll();
+      return await models.Employee.findAll({
+        where: {
+          organizationId: args.organizationId,
+        },
+        include: [
+          {
+            model: models.Organization,
+          },
+        ],
+      });
     } catch (err) {
       if (!(err instanceof HttpError)) {
         err.statusCode = 500;
@@ -92,4 +105,5 @@ export default {
       throw err;
     }
   },
+  async template(parent, args, { models, logger, req }, info) {},
 };

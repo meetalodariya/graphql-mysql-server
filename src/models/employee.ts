@@ -58,6 +58,10 @@ export default sequelize.define(
       type: Sequelize.TEXT,
       defaultValue: null,
     },
+    organizationId: {
+      type: Sequelize.INTEGER,
+      allowNull: false,
+    },
   },
   {
     timestamps: true,

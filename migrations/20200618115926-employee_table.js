@@ -58,7 +58,7 @@ module.exports = {
         type: Sequelize.TEXT,
         defaultValue: null,
       },
-      organizationId: {
+      organization: {
         type: Sequelize.INTEGER,
         references: {
           model: "Organizations",

@@ -1,16 +1,18 @@
 type Query {
   organizations: [Organization!]!
-  employees: [Employee!]!
+  employees(organizationId: Int!): [Employee!]!
   organization(username: String!): Organization!
   organizationByUuid(uuid: String!): Organization!
-  employee(companyEmail: String!): Employee!
-  employeeByUuid(uuid: ID!): Employee!
+  employee(companyEmail: String!, organizationId: Int!): Employee!
+  employeeByUuid(uuid: ID!, organizationId: Int!): Employee!
+  template(uuid: ID!, organizationId: Int!): Template
 }
 
 type Mutation {
   createOrganization(data: CreateOrganization): Organization!
-  deleteOrganization(id: ID): Organization!
   createEmployee(data: CreateEmployee): Employee!
+  createTemplate(data: CreateTemplate): Template!
+  deleteOrganization(id: ID): Organization!
 }
 
 type Employee {
@@ -26,7 +28,8 @@ type Employee {
   personalPhone: String
   isDeleted: Int!
   notes: String
-  organizationId: Int
+  organizationId: Int!
+  Organization: Organization!
   creationDate: String
   updateDate: String
 }
@@ -41,6 +44,16 @@ type Organization {
   updateDate: String
 }
 
+type Template {
+  templateId: ID
+  uuid: String
+  name: String!
+  templateHtml: String!
+  organizationId: Int!
+  creationDate: String
+  updateDate: String
+}
+
 type DocuSign {
   id: ID
   uuid: String
@@ -50,7 +63,7 @@ type DocuSign {
   accessToken: String!
   authorization: String!
   refreshToken: String!
-  organization: Organization!
+  organizationId: Int!
 }
 
 type Dropbox {
@@ -58,7 +71,7 @@ type Dropbox {
   uuid: String
   accountId: String!
   accessToken: String!
-  organization: Organization!
+  organizationId: Int!
 }
 
 input CreateOrganization {
@@ -77,5 +90,11 @@ input CreateEmployee {
   companyPhone: String
   personalPhone: String
   notes: String
-  organizationId: Int
+  organizationId: Int!
+}
+
+input CreateTemplate {
+  name: String!
+  templateHtml: String!
+  organizationId: Int!
 }

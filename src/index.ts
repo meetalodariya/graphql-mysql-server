@@ -8,17 +8,21 @@ import Dropbox from "./models/dropbox";
 import { sequelize } from "./models/index";
 import logger from "@sorthr/hr-logger";
 import Employee from "./models/employee";
+import Template from "./models/template";
 
 // @ts-ignore
 Organization.hasOne(DocuSign, { foreignKey: "organizationId" });
 // @ts-ignore
 Organization.hasOne(Dropbox, { foreignKey: "organizationId" });
 // @ts-ignore
+Organization.hasMany(Template, { foreignKey: "organizationId" });
+// @ts-ignore
 Employee.belongsTo(Organization, { foreignKey: "organizationId" });
 
 const models = {
   Organization,
   Employee,
+  Template,
 };
 
 sequelize

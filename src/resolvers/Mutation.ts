@@ -13,6 +13,7 @@ export default {
   },
   async createEmployee(parent, { data }, { models, logger, req }, info) {
     try {
+      console.log(data);
       const employee = await models.Employee.create({
         uuid: uuid(),
         firstName: data.firstName,
@@ -27,6 +28,24 @@ export default {
         organizationId: data.organizationId,
       });
       return employee;
+    } catch (err) {
+      if (!(err instanceof HttpError)) {
+        err.statusCode = 500;
+      }
+      logger[err.level || "error"](err, req);
+      throw err;
+    }
+  },
+  async createTemplate(parent, { data }, { models, logger, req }, info) {
+    try {
+      const template = await models.Template.create({
+        uuid: uuid(),
+        name: data.name,
+        templateHtml: data.templateHtml,
+        organizationId: data.organizationId,
+      });
+
+      return template;
     } catch (err) {
       if (!(err instanceof HttpError)) {
         err.statusCode = 500;

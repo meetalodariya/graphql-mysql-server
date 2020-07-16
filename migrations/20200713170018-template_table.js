@@ -16,16 +16,15 @@ module.exports = {
       },
       name: {
         type: Sequelize.STRING(255),
-        defaultValue: null,
         allowNull: false,
       },
-      payload: {
-        type: Sequelize.STRING(255),
-        defaultValue: null,
+      templateHtml: {
+        type: Sequelize.TEXT,
         allowNull: false,
       },
       organization: {
         type: Sequelize.INTEGER,
+        allowNull: false,
         references: {
           model: "Organizations",
           key: "id",

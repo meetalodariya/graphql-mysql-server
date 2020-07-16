@@ -97,3 +97,565 @@
   level: 'info',
   timestamp: '2020-06-29T13:41:23.112Z'
 }
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-14T11:39:16.262Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-14T11:44:02.960Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-14T11:47:14.350Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-14T11:48:27.750Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-14T11:50:50.361Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-14T12:04:46.939Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-14T12:05:31.085Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-14T12:07:37.223Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-14T12:09:12.961Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-14T12:17:02.923Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-14T12:17:37.608Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-14T12:18:34.361Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-14T12:19:45.339Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-14T12:22:55.418Z'
+}
+{
+  message: "Field 'organization' doesn't have a default value",
+  method: 'POST',
+  stack: "SequelizeDatabaseError: Field 'organization' doesn't have a default value\n" +
+    '    at Query.formatError (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/sequelize/lib/dialects/mysql/query.js:244:16)\n' +
+    '    at Execute.handler (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/sequelize/lib/dialects/mysql/query.js:51:23)\n' +
+    '    at DatastoreShim.applySegment (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/newrelic/lib/shim/shim.js:1425:20)\n' +
+    '    at Execute.wrappedCallback [as onResult] (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/newrelic/lib/shim/shim.js:1282:21)\n' +
+    '    at Execute.execute (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/commands/command.js:30:14)\n' +
+    '    at Connection.handlePacket (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/connection.js:417:32)\n' +
+    '    at PacketParser.onPacket (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/connection.js:75:12)\n' +
+    '    at PacketParser.executeStart (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/packet_parser.js:75:16)\n' +
+    '    at Socket.<anonymous> (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/connection.js:82:25)\n' +
+    '    at Socket.emit (events.js:315:20)\n' +
+    '    at Shim.applySegment (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/newrelic/lib/shim/shim.js:1425:20)\n' +
+    '    at Socket.wrapper (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/newrelic/lib/shim/shim.js:2087:17)\n' +
+    '    at Shim.applySegment (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/newrelic/lib/shim/shim.js:1425:20)\n' +
+    '    at Socket.wrapper [as emit] (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/newrelic/lib/shim/shim.js:2087:17)\n' +
+    '    at addChunk (_stream_readable.js:302:12)\n' +
+    '    at readableAddChunk (_stream_readable.js:278:9)\n' +
+    '    at Socket.Readable.push (_stream_readable.js:217:10)\n' +
+    '    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)\n' +
+    '    at Shim.applySegment (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/newrelic/lib/shim/shim.js:1425:20)\n' +
+    '    at TCP.wrapper (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/newrelic/lib/shim/shim.js:2087:17)',
+  status: 500,
+  urlpath: '/',
+  duration: 4.66,
+  level: 'error',
+  timestamp: '2020-07-14T12:23:49.214Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-14T12:25:15.505Z'
+}
+{
+  message: 'Query.template defined in resolvers, but not in schema',
+  level: 'warn',
+  timestamp: '2020-07-14T12:44:18.659Z'
+}
+{
+  message: 'Query.template defined in resolvers, but not in schema',
+  level: 'warn',
+  timestamp: '2020-07-14T12:45:07.057Z'
+}
+{
+  message: 'Query.template defined in resolvers, but not in schema',
+  level: 'warn',
+  timestamp: '2020-07-14T12:46:00.290Z'
+}
+{
+  message: 'Query.template defined in resolvers, but not in schema',
+  level: 'warn',
+  timestamp: '2020-07-14T12:46:28.184Z'
+}
+{
+  message: 'Query.template defined in resolvers, but not in schema',
+  level: 'warn',
+  timestamp: '2020-07-14T12:47:00.149Z'
+}
+{
+  message: 'Query.template defined in resolvers, but not in schema',
+  level: 'warn',
+  timestamp: '2020-07-14T12:52:07.467Z'
+}
+{
+  message: 'Query.template defined in resolvers, but not in schema',
+  level: 'warn',
+  timestamp: '2020-07-14T13:08:18.744Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-14T13:09:38.016Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-14T13:11:43.271Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-14T13:12:07.784Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-14T13:12:44.598Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-14T13:14:54.918Z'
+}
+{
+  message: "Unknown column 'Employee.organization' in 'field list'",
+  method: 'POST',
+  stack: "SequelizeDatabaseError: Unknown column 'Employee.organization' in 'field list'\n" +
+    '    at Query.formatError (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/sequelize/lib/dialects/mysql/query.js:244:16)\n' +
+    '    at Query.handler [as onResult] (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/sequelize/lib/dialects/mysql/query.js:51:23)\n' +
+    '    at Query.execute (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/commands/command.js:30:14)\n' +
+    '    at Connection.handlePacket (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/connection.js:417:32)\n' +
+    '    at PacketParser.onPacket (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/connection.js:75:12)\n' +
+    '    at PacketParser.executeStart (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/packet_parser.js:75:16)\n' +
+    '    at Socket.<anonymous> (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/connection.js:82:25)\n' +
+    '    at Socket.emit (events.js:315:20)\n' +
+    '    at Socket.EventEmitter.emit (domain.js:485:12)\n' +
+    '    at addChunk (_stream_readable.js:302:12)\n' +
+    '    at readableAddChunk (_stream_readable.js:278:9)\n' +
+    '    at Socket.Readable.push (_stream_readable.js:217:10)\n' +
+    '    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)',
+  status: 500,
+  urlpath: '/',
+  duration: 0.012,
+  level: 'error',
+  timestamp: '2020-07-14T13:15:00.276Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-14T13:20:05.962Z'
+}
+{
+  message: "Unknown column 'Employee.organization' in 'field list'",
+  method: 'POST',
+  stack: "SequelizeDatabaseError: Unknown column 'Employee.organization' in 'field list'\n" +
+    '    at Query.formatError (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/sequelize/lib/dialects/mysql/query.js:244:16)\n' +
+    '    at Query.handler [as onResult] (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/sequelize/lib/dialects/mysql/query.js:51:23)\n' +
+    '    at Query.execute (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/commands/command.js:30:14)\n' +
+    '    at Connection.handlePacket (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/connection.js:417:32)\n' +
+    '    at PacketParser.onPacket (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/connection.js:75:12)\n' +
+    '    at PacketParser.executeStart (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/packet_parser.js:75:16)\n' +
+    '    at Socket.<anonymous> (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/connection.js:82:25)\n' +
+    '    at Socket.emit (events.js:315:20)\n' +
+    '    at Socket.EventEmitter.emit (domain.js:485:12)\n' +
+    '    at addChunk (_stream_readable.js:302:12)\n' +
+    '    at readableAddChunk (_stream_readable.js:278:9)\n' +
+    '    at Socket.Readable.push (_stream_readable.js:217:10)\n' +
+    '    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)',
+  status: 500,
+  urlpath: '/',
+  duration: 0.014,
+  level: 'error',
+  timestamp: '2020-07-14T13:20:10.343Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-14T13:24:58.343Z'
+}
+{
+  message: "Organization is associated to Employee using an alias. You've included an alias (organizationId), but it does not match the alias(es) defined in your association (Organization).",
+  method: 'POST',
+  stack: "SequelizeEagerLoadingError: Organization is associated to Employee using an alias. You've included an alias (organizationId), but it does not match the alias(es) defined in your association (Organization).\n" +
+    '    at Function._getIncludedAssociation (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/sequelize/lib/model.js:726:15)\n' +
+    '    at Function._validateIncludedElement (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/sequelize/lib/model.js:621:53)\n' +
+    '    at /Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/sequelize/lib/model.js:516:37\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Function._validateIncludedElements (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/sequelize/lib/model.js:511:39)\n' +
+    '    at /Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/sequelize/lib/model.js:1728:14\n' +
+    '    at tryCatcher (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/promise.js:729:18)\n' +
+    '    at _drainQueueStep (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Immediate.Async.drainQueues [as _onImmediate] (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processImmediate (internal/timers.js:456:21)\n' +
+    '    at process.topLevelDomainCallback (domain.js:137:15)',
+  status: 500,
+  urlpath: '/',
+  duration: 0.01,
+  level: 'error',
+  timestamp: '2020-07-14T13:25:09.937Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-14T13:27:08.849Z'
+}
+{
+  message: "Organization is associated to Employee using an alias. You've included an alias (id), but it does not match the alias(es) defined in your association (Organization).",
+  method: 'POST',
+  stack: "SequelizeEagerLoadingError: Organization is associated to Employee using an alias. You've included an alias (id), but it does not match the alias(es) defined in your association (Organization).\n" +
+    '    at Function._getIncludedAssociation (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/sequelize/lib/model.js:726:15)\n' +
+    '    at Function._validateIncludedElement (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/sequelize/lib/model.js:621:53)\n' +
+    '    at /Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/sequelize/lib/model.js:516:37\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Function._validateIncludedElements (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/sequelize/lib/model.js:511:39)\n' +
+    '    at /Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/sequelize/lib/model.js:1728:14\n' +
+    '    at tryCatcher (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/promise.js:729:18)\n' +
+    '    at _drainQueueStep (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Immediate.Async.drainQueues [as _onImmediate] (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processImmediate (internal/timers.js:456:21)\n' +
+    '    at process.topLevelDomainCallback (domain.js:137:15)',
+  status: 500,
+  urlpath: '/',
+  duration: 0.027,
+  level: 'error',
+  timestamp: '2020-07-14T13:27:10.704Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-14T13:30:09.715Z'
+}
+{
+  message: "Unknown column 'Employee.organization' in 'field list'",
+  method: 'POST',
+  stack: "SequelizeDatabaseError: Unknown column 'Employee.organization' in 'field list'\n" +
+    '    at Query.formatError (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/sequelize/lib/dialects/mysql/query.js:244:16)\n' +
+    '    at Query.handler [as onResult] (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/sequelize/lib/dialects/mysql/query.js:51:23)\n' +
+    '    at Query.execute (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/commands/command.js:30:14)\n' +
+    '    at Connection.handlePacket (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/connection.js:417:32)\n' +
+    '    at PacketParser.onPacket (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/connection.js:75:12)\n' +
+    '    at PacketParser.executeStart (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/packet_parser.js:75:16)\n' +
+    '    at Socket.<anonymous> (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/connection.js:82:25)\n' +
+    '    at Socket.emit (events.js:315:20)\n' +
+    '    at Socket.EventEmitter.emit (domain.js:485:12)\n' +
+    '    at addChunk (_stream_readable.js:302:12)\n' +
+    '    at readableAddChunk (_stream_readable.js:278:9)\n' +
+    '    at Socket.Readable.push (_stream_readable.js:217:10)\n' +
+    '    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)',
+  status: 500,
+  urlpath: '/',
+  duration: 0.038,
+  level: 'error',
+  timestamp: '2020-07-14T13:30:12.306Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-14T13:36:28.177Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-14T13:37:06.558Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-14T13:37:52.535Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-14T13:41:46.217Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-14T13:49:24.491Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-14T13:50:00.016Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-14T13:53:57.008Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-14T13:55:26.627Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-14T13:59:00.879Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-14T13:59:52.945Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-14T14:02:02.668Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-14T15:34:20.660Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-14T16:27:17.998Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-14T16:30:08.547Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-14T16:46:15.840Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-14T16:49:34.136Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-14T16:55:02.222Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-14T17:07:02.594Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-16T14:09:57.128Z'
+}
+{
+  message: 'notNull Violation: Templates.organizationId cannot be null',
+  method: 'POST',
+  stack: 'SequelizeValidationError: notNull Violation: Templates.organizationId cannot be null\n' +
+    '    at /Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/sequelize/lib/instance-validator.js:74:15\n' +
+    '    at tryCatcher (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/promise.js:729:18)\n' +
+    '    at Promise._fulfill (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/promise.js:673:18)\n' +
+    '    at PromiseArray._resolve (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/promise_array.js:127:19)\n' +
+    '    at PromiseArray._promiseFulfilled (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/promise_array.js:145:14)\n' +
+    '    at Promise._settlePromise (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/promise.js:609:26)\n' +
+    '    at Promise._settlePromise0 (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/promise.js:729:18)\n' +
+    '    at _drainQueueStep (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Immediate.Async.drainQueues [as _onImmediate] (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processImmediate (internal/timers.js:456:21)\n' +
+    '    at process.topLevelDomainCallback (domain.js:137:15)',
+  status: 500,
+  urlpath: '/',
+  duration: 0.016,
+  level: 'error',
+  timestamp: '2020-07-16T14:10:44.373Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-16T14:15:29.477Z'
+}
+{
+  message: 'notNull Violation: Templates.organizationId cannot be null',
+  method: 'POST',
+  stack: 'SequelizeValidationError: notNull Violation: Templates.organizationId cannot be null\n' +
+    '    at /Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/sequelize/lib/instance-validator.js:74:15\n' +
+    '    at tryCatcher (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/promise.js:729:18)\n' +
+    '    at Promise._fulfill (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/promise.js:673:18)\n' +
+    '    at PromiseArray._resolve (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/promise_array.js:127:19)\n' +
+    '    at PromiseArray._promiseFulfilled (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/promise_array.js:145:14)\n' +
+    '    at Promise._settlePromise (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/promise.js:609:26)\n' +
+    '    at Promise._settlePromise0 (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/promise.js:729:18)\n' +
+    '    at _drainQueueStep (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Immediate.Async.drainQueues [as _onImmediate] (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processImmediate (internal/timers.js:456:21)\n' +
+    '    at process.topLevelDomainCallback (domain.js:137:15)',
+  status: 500,
+  urlpath: '/',
+  duration: 0.012,
+  level: 'error',
+  timestamp: '2020-07-16T14:19:32.600Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-16T14:21:14.702Z'
+}
+{
+  message: 'notNull Violation: Templates.organizationId cannot be null',
+  method: 'POST',
+  stack: 'SequelizeValidationError: notNull Violation: Templates.organizationId cannot be null\n' +
+    '    at /Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/sequelize/lib/instance-validator.js:74:15\n' +
+    '    at tryCatcher (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/promise.js:729:18)\n' +
+    '    at Promise._fulfill (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/promise.js:673:18)\n' +
+    '    at PromiseArray._resolve (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/promise_array.js:127:19)\n' +
+    '    at PromiseArray._promiseFulfilled (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/promise_array.js:145:14)\n' +
+    '    at Promise._settlePromise (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/promise.js:609:26)\n' +
+    '    at Promise._settlePromise0 (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/promise.js:729:18)\n' +
+    '    at _drainQueueStep (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Immediate.Async.drainQueues [as _onImmediate] (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processImmediate (internal/timers.js:456:21)\n' +
+    '    at process.topLevelDomainCallback (domain.js:137:15)',
+  status: 500,
+  urlpath: '/',
+  duration: 0.009,
+  level: 'error',
+  timestamp: '2020-07-16T14:21:19.924Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-16T14:21:51.122Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-16T18:44:04.200Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-16T18:49:08.414Z'
+}
+{
+  message: 'No employee found of that id',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.024,
+  level: 'info',
+  timestamp: '2020-07-16T18:50:26.311Z'
+}
+{
+  message: 'No employee found of that id',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.01,
+  level: 'info',
+  timestamp: '2020-07-16T18:50:34.977Z'
+}
+{
+  message: 'No employee found of that company email',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.017,
+  level: 'info',
+  timestamp: '2020-07-16T18:51:37.993Z'
+}
+{
+  message: 'No employee found of that company email',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.004,
+  level: 'info',
+  timestamp: '2020-07-16T18:51:52.174Z'
+}
+{
+  message: 'No employee found of that company email',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.005,
+  level: 'info',
+  timestamp: '2020-07-16T18:51:59.062Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-16T19:49:42.894Z'
+}
