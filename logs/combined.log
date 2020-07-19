@@ -659,3 +659,82 @@
   level: 'warn',
   timestamp: '2020-07-16T19:49:42.894Z'
 }
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-17T14:25:26.954Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-19T12:59:52.797Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-19T13:21:28.929Z'
+}
+{
+  message: 'Cannot add or update a child row: a foreign key constraint fails (`sorthr`.`templates`, CONSTRAINT `templates_ibfk_1` FOREIGN KEY (`organizationId`) REFERENCES `organizations` (`id`))',
+  method: 'POST',
+  stack: 'SequelizeForeignKeyConstraintError: Cannot add or update a child row: a foreign key constraint fails (`sorthr`.`templates`, CONSTRAINT `templates_ibfk_1` FOREIGN KEY (`organizationId`) REFERENCES `organizations` (`id`))\n' +
+    '    at Query.formatError (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/sequelize/lib/dialects/mysql/query.js:233:16)\n' +
+    '    at Execute.handler [as onResult] (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/sequelize/lib/dialects/mysql/query.js:51:23)\n' +
+    '    at Execute.execute (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/commands/command.js:30:14)\n' +
+    '    at Connection.handlePacket (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/connection.js:417:32)\n' +
+    '    at PacketParser.onPacket (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/connection.js:75:12)\n' +
+    '    at PacketParser.executeStart (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/packet_parser.js:75:16)\n' +
+    '    at Socket.<anonymous> (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/mysql2/lib/connection.js:82:25)\n' +
+    '    at Socket.emit (events.js:315:20)\n' +
+    '    at Socket.EventEmitter.emit (domain.js:485:12)\n' +
+    '    at addChunk (_stream_readable.js:302:12)\n' +
+    '    at readableAddChunk (_stream_readable.js:278:9)\n' +
+    '    at Socket.Readable.push (_stream_readable.js:217:10)\n' +
+    '    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)',
+  status: 500,
+  urlpath: '/',
+  duration: 0.028,
+  level: 'error',
+  timestamp: '2020-07-19T13:22:47.932Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-19T13:25:25.859Z'
+}
+{
+  message: 'No employee found of that company email',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.009,
+  level: 'info',
+  timestamp: '2020-07-19T13:27:35.081Z'
+}
+{
+  message: 'No employee found of that company email',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.003,
+  level: 'info',
+  timestamp: '2020-07-19T14:01:39.700Z'
+}
+{
+  message: 'No employee found of that company email',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.005,
+  level: 'info',
+  timestamp: '2020-07-19T14:05:46.401Z'
+}
+{
+  message: 'No employee found of that company email',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.005,
+  level: 'info',
+  timestamp: '2020-07-19T14:07:15.266Z'
+}
