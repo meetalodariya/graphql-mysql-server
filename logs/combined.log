@@ -738,3 +738,438 @@
   level: 'info',
   timestamp: '2020-07-19T14:07:15.266Z'
 }
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-21T20:24:21.370Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-22T14:21:31.642Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-22T14:22:05.459Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-22T14:23:59.549Z'
+}
+{
+  message: 'Organization is not associated to Templates!',
+  method: 'POST',
+  stack: 'SequelizeEagerLoadingError: Organization is not associated to Templates!\n' +
+    '    at Function._getIncludedAssociation (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/sequelize/lib/model.js:717:13)\n' +
+    '    at Function._validateIncludedElement (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/sequelize/lib/model.js:621:53)\n' +
+    '    at /Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/sequelize/lib/model.js:516:37\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Function._validateIncludedElements (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/sequelize/lib/model.js:511:39)\n' +
+    '    at /Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/sequelize/lib/model.js:1728:14\n' +
+    '    at tryCatcher (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/promise.js:729:18)\n' +
+    '    at _drainQueueStep (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Immediate.Async.drainQueues [as _onImmediate] (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processImmediate (internal/timers.js:456:21)\n' +
+    '    at process.topLevelDomainCallback (domain.js:137:15)',
+  status: 500,
+  urlpath: '/',
+  duration: 0.033,
+  level: 'error',
+  timestamp: '2020-07-22T14:24:01.840Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-22T14:25:28.158Z'
+}
+{
+  message: 'Organization is not associated to Templates!',
+  method: 'POST',
+  stack: 'SequelizeEagerLoadingError: Organization is not associated to Templates!\n' +
+    '    at Function._getIncludedAssociation (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/sequelize/lib/model.js:717:13)\n' +
+    '    at Function._validateIncludedElement (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/sequelize/lib/model.js:621:53)\n' +
+    '    at /Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/sequelize/lib/model.js:516:37\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Function._validateIncludedElements (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/sequelize/lib/model.js:511:39)\n' +
+    '    at /Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/sequelize/lib/model.js:1728:14\n' +
+    '    at tryCatcher (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/promise.js:729:18)\n' +
+    '    at _drainQueueStep (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Immediate.Async.drainQueues [as _onImmediate] (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processImmediate (internal/timers.js:456:21)\n' +
+    '    at process.topLevelDomainCallback (domain.js:137:15)',
+  status: 500,
+  urlpath: '/',
+  duration: 0.058,
+  level: 'error',
+  timestamp: '2020-07-22T14:25:39.793Z'
+}
+{
+  message: 'Organization is not associated to Templates!',
+  method: 'POST',
+  stack: 'SequelizeEagerLoadingError: Organization is not associated to Templates!\n' +
+    '    at Function._getIncludedAssociation (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/sequelize/lib/model.js:717:13)\n' +
+    '    at Function._validateIncludedElement (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/sequelize/lib/model.js:621:53)\n' +
+    '    at /Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/sequelize/lib/model.js:516:37\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Function._validateIncludedElements (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/sequelize/lib/model.js:511:39)\n' +
+    '    at /Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/sequelize/lib/model.js:1728:14\n' +
+    '    at tryCatcher (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/promise.js:729:18)\n' +
+    '    at _drainQueueStep (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Immediate.Async.drainQueues [as _onImmediate] (/Users/meetalodariya/Documents/projects/backend/docusign-node/hr-graphql-orm/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processImmediate (internal/timers.js:456:21)\n' +
+    '    at process.topLevelDomainCallback (domain.js:137:15)',
+  status: 500,
+  urlpath: '/',
+  duration: 0.002,
+  level: 'error',
+  timestamp: '2020-07-22T14:25:40.450Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-22T14:26:32.215Z'
+}
+{
+  message: 'No organization found of that username',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.14,
+  level: 'info',
+  timestamp: '2020-07-23T15:25:01.453Z'
+}
+{
+  message: 'No organization found of that username',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.003,
+  level: 'info',
+  timestamp: '2020-07-23T15:25:03.878Z'
+}
+{
+  message: 'No organization found of that username',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.02,
+  level: 'info',
+  timestamp: '2020-07-23T15:25:49.875Z'
+}
+{
+  message: 'No organization found of that username',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.013,
+  level: 'info',
+  timestamp: '2020-07-24T04:06:54.422Z'
+}
+{
+  message: 'No organization found of that username',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.006,
+  level: 'info',
+  timestamp: '2020-07-24T04:07:00.548Z'
+}
+{
+  message: 'No organization found of that username',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.014,
+  level: 'info',
+  timestamp: '2020-07-24T04:07:11.535Z'
+}
+{
+  message: 'No organization found of that username',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.002,
+  level: 'info',
+  timestamp: '2020-07-24T04:07:12.120Z'
+}
+{
+  message: 'No organization found of that username',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.002,
+  level: 'info',
+  timestamp: '2020-07-24T04:07:12.286Z'
+}
+{
+  message: 'No organization found of that username',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.002,
+  level: 'info',
+  timestamp: '2020-07-24T04:07:12.434Z'
+}
+{
+  message: 'No organization found of that username',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.002,
+  level: 'info',
+  timestamp: '2020-07-24T04:07:12.577Z'
+}
+{
+  message: 'No organization found of that username',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.006,
+  level: 'info',
+  timestamp: '2020-07-24T04:07:12.720Z'
+}
+{
+  message: 'No organization found of that username',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.002,
+  level: 'info',
+  timestamp: '2020-07-24T04:07:12.878Z'
+}
+{
+  message: 'No organization found of that username',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.003,
+  level: 'info',
+  timestamp: '2020-07-24T04:07:12.993Z'
+}
+{
+  message: 'No organization found of that username',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.002,
+  level: 'info',
+  timestamp: '2020-07-24T04:07:13.149Z'
+}
+{
+  message: 'No organization found of that username',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.009,
+  level: 'info',
+  timestamp: '2020-07-24T04:07:13.304Z'
+}
+{
+  message: 'No organization found of that username',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.002,
+  level: 'info',
+  timestamp: '2020-07-24T04:07:13.438Z'
+}
+{
+  message: 'No organization found of that username',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.002,
+  level: 'info',
+  timestamp: '2020-07-24T04:07:13.580Z'
+}
+{
+  message: 'No organization found of that username',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.002,
+  level: 'info',
+  timestamp: '2020-07-24T04:07:13.716Z'
+}
+{
+  message: 'No organization found of that username',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.005,
+  level: 'info',
+  timestamp: '2020-07-24T04:07:13.874Z'
+}
+{
+  message: 'No organization found of that username',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.002,
+  level: 'info',
+  timestamp: '2020-07-24T04:07:14.017Z'
+}
+{
+  message: 'No organization found of that username',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.003,
+  level: 'info',
+  timestamp: '2020-07-24T04:07:14.160Z'
+}
+{
+  message: 'No organization found of that username',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.002,
+  level: 'info',
+  timestamp: '2020-07-24T04:07:14.303Z'
+}
+{
+  message: 'No organization found of that username',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.006,
+  level: 'info',
+  timestamp: '2020-07-24T04:07:14.472Z'
+}
+{
+  message: 'No organization found of that username',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.002,
+  level: 'info',
+  timestamp: '2020-07-24T04:07:14.705Z'
+}
+{
+  message: 'No organization found of that username',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.005,
+  level: 'info',
+  timestamp: '2020-07-24T04:07:54.328Z'
+}
+{
+  message: 'No organization found of that username',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.002,
+  level: 'info',
+  timestamp: '2020-07-24T04:08:03.327Z'
+}
+{
+  message: 'No organization found of that username',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.007,
+  level: 'info',
+  timestamp: '2020-07-24T04:08:04.405Z'
+}
+{
+  message: 'No organization found of that username',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.002,
+  level: 'info',
+  timestamp: '2020-07-24T04:08:04.560Z'
+}
+{
+  message: 'No organization found of that username',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.007,
+  level: 'info',
+  timestamp: '2020-07-24T04:08:04.719Z'
+}
+{
+  message: 'No organization found of that username',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.006,
+  level: 'info',
+  timestamp: '2020-07-24T04:08:04.868Z'
+}
+{
+  message: 'No organization found of that username',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.005,
+  level: 'info',
+  timestamp: '2020-07-24T04:08:05.018Z'
+}
+{
+  message: 'No organization found of that username',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.003,
+  level: 'info',
+  timestamp: '2020-07-24T04:08:05.159Z'
+}
+{
+  message: 'No organization found of that username',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.002,
+  level: 'info',
+  timestamp: '2020-07-24T04:08:05.281Z'
+}
+{
+  message: 'No organization found of that username',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.003,
+  level: 'info',
+  timestamp: '2020-07-24T04:08:05.423Z'
+}
+{
+  message: 'No organization found of that username',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.003,
+  level: 'info',
+  timestamp: '2020-07-24T04:08:05.558Z'
+}
+{
+  message: 'No organization found of that username',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.02,
+  level: 'info',
+  timestamp: '2020-07-24T04:08:28.981Z'
+}

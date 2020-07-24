@@ -6,6 +6,7 @@ type Query {
   employee(companyEmail: String!, organizationId: Int!): Employee!
   employeeByUuid(uuid: ID!, organizationId: Int!): Employee!
   template(uuid: ID!, organizationId: Int!): Template
+  templates(organizationId: Int!): [Template!]!
 }
 
 type Mutation {

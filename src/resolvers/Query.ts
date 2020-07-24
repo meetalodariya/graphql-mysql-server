@@ -105,5 +105,21 @@ export default {
       throw err;
     }
   },
-  async template(parent, args, { models, logger, req }, info) {},
+  async templates(parent, args, { models, logger, req }, info) {
+    try {
+      const temps = await models.Template.findAll({
+        where: {
+          organizationId: args.organizationId,
+        },
+      });
+      console.log(temps);
+      return temps;
+    } catch (err) {
+      if (!(err instanceof HttpError)) {
+        err.statusCode = 500;
+      }
+      logger[err.level || "error"](err, req);
+      throw err;
+    }
+  },
 };
