@@ -1173,3 +1173,77 @@
   level: 'info',
   timestamp: '2020-07-24T04:08:28.981Z'
 }
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-24T04:22:00.968Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-25T13:10:40.943Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-25T14:27:04.637Z'
+}
+{
+  message: 'started at http://localhost:4000',
+  level: 'warn',
+  timestamp: '2020-07-25T14:27:50.839Z'
+}
+{
+  message: 'No template found of that uuid in the organization',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.008,
+  level: 'info',
+  timestamp: '2020-07-25T14:29:55.658Z'
+}
+{
+  message: 'No template found of that uuid in the organization',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.003,
+  level: 'info',
+  timestamp: '2020-07-25T14:30:00.861Z'
+}
+{
+  message: 'No template found of that uuid in the organization',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.006,
+  level: 'info',
+  timestamp: '2020-07-25T14:30:01.895Z'
+}
+{
+  message: 'No template found of that uuid in the organization',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.006,
+  level: 'info',
+  timestamp: '2020-07-25T14:30:02.126Z'
+}
+{
+  message: 'No template found of that uuid in the organization',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.005,
+  level: 'info',
+  timestamp: '2020-07-25T14:30:02.320Z'
+}
+{
+  message: 'No template found of that uuid in the organization',
+  method: 'POST',
+  status: 500,
+  urlpath: '/',
+  duration: 0.003,
+  level: 'info',
+  timestamp: '2020-07-25T14:30:02.496Z'
+}

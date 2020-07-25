@@ -1,5 +1,6 @@
 import HttpError from "../exceptions/http-error";
 import template from "../models/template";
+
 export default {
   async organizations(parent, args, { models, logger }, info) {},
   async organizationByUuid(parent, args, { models, logger, req }, info) {
@@ -107,13 +108,11 @@ export default {
   },
   async templates(parent, args, { models, logger, req }, info) {
     try {
-      const temps = await models.Template.findAll({
+      return await models.Template.findAll({
         where: {
           organizationId: args.organizationId,
         },
       });
-      console.log(temps);
-      return temps;
     } catch (err) {
       if (!(err instanceof HttpError)) {
         err.statusCode = 500;

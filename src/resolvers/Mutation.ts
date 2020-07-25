@@ -54,4 +54,28 @@ export default {
       throw err;
     }
   },
+  async updateTemplate(parent, { data }, { models, logger, req }, info) {
+    try {
+      const template = await models.Template.findOne({
+        where: { uuid: data.uuid, organizationId: data.organizationId },
+      });
+      if (!template) {
+        const err = new HttpError(
+          "No template found of that uuid in the organization"
+        );
+        err.statusCode = 401;
+        err.level = "info";
+        throw err;
+      }
+      template.name = data.name;
+      template.templateHtml = data.templateHtml;
+      return template.save();
+    } catch (err) {
+      if (!(err instanceof HttpError)) {
+        err.statusCode = 500;
+      }
+      logger[err.level || "error"](err, req);
+      throw err;
+    }
+  },
 };
