@@ -20,7 +20,7 @@
     "@sorthr/hr-logger": "^1.0.1",
     "config": "^3.3.1",
     "env-cmd": "^10.1.0",
-    "graphql-cli": "^3.0.14",
+    "graphql-cli": "^4.1.0",
     "graphql-yoga": "^1.18.3",
     "mysql2": "^2.1.0",
     "newrelic": "^6.9.0",
